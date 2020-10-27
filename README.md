@@ -1,4 +1,5 @@
-# Accelerating Graph “memory-efficient” Adjacency Lists (Serial, OpenMP)
+# Accelerating Graph 
+## *Memory-efficient* Adjacency Lists (Serial, OpenMP)
 
 ## Motivation
 * Graph processing is widely used to solve big data problems in multiple domains, such as social networks, protein interactions in bioinformatics and web graph hierarchies. 
