@@ -34,13 +34,15 @@
 * As far as it is known in advance, that the maximal amount of edges is `|E|` - at the startup of the program, we can allocate an array of size `|E|`, which can handle all edges of the graph.
 * Let's define a structure, which represents edges of the graph:
 
-```struct Edge{
+```
+struct Edge{
 int src; // id of a source vertex
 int dest; // id of a destination vertex
 };
 ```
 
-```struct Vertex{
+```
+struct Vertex{
 int edges_idx; // index of the first outgoing edge
 };
 ```
