@@ -117,7 +117,7 @@ printMessageWithtime("Time Sorting (Seconds)",Seconds(timer));
 
 ## PSEUDOCODE OF RADIX SORT
 ```
-Radix-Sort(A, d) ->
+Radix-Sort(A, d)
 //It works same as counting sort for d number of passes.
 //Each key in A[1..n] is a d-digit integer.
 //(Digits are numbered 1 to d from right to left.)
